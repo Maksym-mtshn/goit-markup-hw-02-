@@ -1,0 +1,70 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+  --primary-bg-color: #2f303a;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: #000000;
+}
+.logo-span {
+  color: var(--accent-color);
+}
+
+/* Основна навігація */
+.site-nav .auth-nav {
+  color: var(--title-text-color);
+}
+.link:hover {
+  color: var(--accent-color);
+}
+.link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Секція Hero */
+.hero {
+  background: var(--primary-bg-color);
+}
+.hero-title {
+  color: var(--white-text-color);
+}
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+/* section переваги компанії */
+.subtitle {
+  color: var(--title-text-color);
+}
+
+/* section Чим ми займаємось */
+
+/* section Наша команда */
+.section-team {
+  background: #f5f4fa;
+}
+
+/* Footer */
+footer {
+  background: var(--primary-bg-color);
+  color: var(--white-text-color);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
