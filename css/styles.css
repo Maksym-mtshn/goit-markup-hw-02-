@@ -68,3 +68,18 @@ footer {
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio */
+.btn {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
