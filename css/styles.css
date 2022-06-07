@@ -7,6 +7,7 @@
   --primary-bg-color: #2f303a;
 }
 
+/* body */
 body {
   background-color: var(--white-text-color);
   color: var(--primary-text-color);
@@ -53,7 +54,7 @@ ul {
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -63,25 +64,25 @@ ul {
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* section переваги компанії */
 .heading-benefits {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .subtitle-benefits {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
@@ -90,7 +91,7 @@ ul {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -102,14 +103,13 @@ ul {
 .team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-subtitle {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -130,15 +130,13 @@ footer {
   color: var(--accent-color);
 }
 .address {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .footer-link {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -146,11 +144,12 @@ footer {
 .btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -160,13 +159,12 @@ footer {
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-subtitle {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
