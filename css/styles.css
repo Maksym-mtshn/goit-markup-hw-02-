@@ -22,11 +22,11 @@ ul {
 .logo {
   color: #000000;
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo-span {
   color: var(--accent-color);
@@ -44,6 +44,10 @@ ul {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+}
+.link {
+  color: var(--title-text-color);
+  text-decoration: none;
 }
 
 /* Секція Hero */
@@ -124,17 +128,16 @@ footer {
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
 }
 .address {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.footer-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
