@@ -3,13 +3,17 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
-  --white-text-color: #ffffff;
+  --slogan-text-color: #ffffff;
   --primary-bg-color: #2f303a;
+  --first-logo-color: #000000;
+  --btn-bgr-color: #f5f4fa;
+  --button-background-color: #188ce8;
+  --link-address-color: rgba(255, 255, 255, 0.6);
 }
 
 /* body */
 body {
-  background-color: var(--white-text-color);
+  font-size: 14px;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -20,8 +24,8 @@ ul {
 
 /* Logo */
 .logo {
-  color: #000000;
-  font-family: Raleway;
+  color: var(--first-logo-color);
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -36,17 +40,17 @@ ul {
 .site-nav .auth-nav {
   color: var(--title-text-color);
 }
+
+.link:focus,
 .link:hover {
-  color: var(--accent-color);
-}
-.link:focus {
   color: var(--accent-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
 }
 .link {
-  color: var(--title-text-color);
+  font-size: 14px;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
@@ -55,7 +59,7 @@ ul {
   background: var(--primary-bg-color);
 }
 .hero-title {
-  color: var(--white-text-color);
+  color: var(--slogan-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -64,16 +68,18 @@ ul {
   text-transform: uppercase;
 }
 .button {
-  color: var(--white-text-color);
+  font: inherit;
+  color: var(--slogan-text-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+.button:focus,
+.button:hover {
+  background-color: var(--button-background-color);
 }
 
 /* section переваги компанії */
@@ -102,7 +108,7 @@ ul {
 
 /* section Наша команда */
 .section-team {
-  background: #f5f4fa;
+  background: var(--btn-bgr-color);
 }
 .team-title {
   font-weight: 500;
@@ -120,18 +126,19 @@ ul {
 
 /* Footer */
 .futer-logo-span {
-  color: var(--white-text-color);
+  color: var(--slogan-text-color);
 }
 footer {
   background: var(--primary-bg-color);
-  color: var(--white-text-color);
+  color: var(--slogan-text-color);
 }
 .footer-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--link-address-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  font-style: normal;
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -141,25 +148,31 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-text-color);
+  color: var(--slogan-text-color);
   text-decoration: none;
+  font-style: normal;
 }
 
 /* portfolio */
 .btn {
+  font: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
+  background-color: var(--btn-bgr-color);
   color: var(--primary-text-color);
   cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
-  color: var(--white-text-color);
+  color: var(--slogan-text-color);
+}
+.btn.current {
+  background-color: var(--accent-color);
+  color: var(--slogan-text-color);
 }
 .portfolio-title {
   font-weight: 700;
